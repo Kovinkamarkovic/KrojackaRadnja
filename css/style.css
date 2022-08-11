@@ -1,0 +1,191 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+	background-image: url(../slike/pozadina.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center top;
+	background-size:cover;
+}
+
+
+body {
+	margin: 0;
+	padding: 0;	
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	margin: 0.3em 0 0.5em;
+}
+h1 { font-size: 38px;}
+h2 { font-size: 30px;}
+h3 { font-size: 26px;}
+h4 { font-size: 24px;}
+h5 { font-size: 20px;}
+h6 { font-size: 18px;}
+
+a:link,
+a:visited {
+	color:#332223;
+	text-decoration: none;
+}
+a:hover {
+	color:#332223;
+	text-decoration: none;
+}
+a:active {
+	color:#332223;
+	text-decoration: none;
+	
+}
+
+
+
+
+
+#wrapper {
+	width:950px;
+	padding:15px;
+	margin:0 auto;
+	background-color:#F4A460;
+	
+	
+}
+#header {
+	background:#F4A460;
+	margin-bottom:15px;
+	padding:20px;
+	overflow:hidden;
+}
+#header a:link,
+#header a:visited {
+	color:#F4A460;
+	text-decoration: none;
+}
+#header a:hover {
+	color:#FFFFFF;
+	text-decoration: underline;
+}
+#header a:active {
+	color:#F4A460;
+}
+
+
+#logo {
+	float:left;
+	position: center;
+}
+#slogan {
+	float:right;
+	color: #FFFFFF;
+	font-style:italic;
+	font-size: 22px;
+}
+#slogan p {
+	margin: 0;
+}
+#nav {
+	height:40px;
+	background:#F6C95C;
+	margin-bottom:15px;
+}
+#nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#nav ul li {
+	float:left;
+	position: relative;
+}
+#nav ul li a {
+	padding:10px;
+	height:20px;
+	line-height: 20px;
+	display: block;
+	transition: 0.5s all ease;
+}
+#nav ul li a:link,
+#nav ul li a:visited {
+	color:#black;
+	text-decoration: none;
+}
+#nav ul li a:hover {
+	color:#black;
+	background:#black;
+}
+#nav ul li a:active {
+	color:#F4A460;
+	background:#CCCCCC;
+}
+
+#nav ul li ul {
+	background:rgba(55,55,55,0.6);
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width:120px;
+	display: none; /* u startu */
+}
+#nav ul li ul li {
+	float: none;
+}
+#nav ul li:hover > ul {
+	display: block;
+}
+
+#nav ul li ul li ul {
+	left: 100%;
+	top: 0;
+}
+#main2 {
+	float:left;
+	width:280px;
+	margin-bottom:15px;
+}
+#sidebar2 {
+	float:right;
+	width:660px;
+	margin-bottom:15px;
+	position: relative;
+}
+
+#main {
+	float:left;
+	width:660px;
+	margin-bottom:15px;
+}
+#sidebar {
+	float:right;
+	width:280px;
+	margin-bottom:15px;
+	position: relative;
+}
+
+#footer {
+	background:#F6C95C;
+	clear:both;
+	text-align: center;
+	color: #black;
+	font-size: 12px;
+	padding: 8px;
+}
+#footer p{
+	margin: 0;
+}
+
+#mapa{
+	padding:160px;
+	margin:40px;
+	float:left;
+}
+
+
+
+
+
+
+
